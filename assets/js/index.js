@@ -46,7 +46,8 @@ function renderAvatar(user) {
     let uNickname = user.nickname || user.username
     let uPic = user.user_pic
   
-    $('#weclome').html('欢迎&nbsp;&nbsp;' + uNickname)
+    $('#welcome').html('欢迎&nbsp;&nbsp;' + uNickname)
+    console.log('昵称是：'+uNickname)
 
     if (uPic !== null) {
       
